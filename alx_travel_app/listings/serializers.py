@@ -13,3 +13,5 @@ class BookingSerializer(serializers.ModelSerializer):
         model = Booking
         fields = ['id', 'listing', 'user', 'start_date', 'end_date']
         read_only_fields = ['id']
+
+#serializer for listing detail view

@@ -6,6 +6,7 @@ import random
 from datetime import date, timedelta
 
 
+
 class Command(BaseCommand):
     help = 'Seed the database with sample listings and bookings data'
 
